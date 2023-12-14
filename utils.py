@@ -7,7 +7,7 @@ from abc import ABC, abstractmethod
 class Vacancy(ABC):
 
     @abstractmethod
-    def vac_api(self):
+    def vac_api(self, name):
         pass
 
 
@@ -15,17 +15,19 @@ class HeadHunterAPI(Vacancy):
 
     url = "https://api.hh.ru/vacancies"
 
-    def vac_api(self):
-        vac_api = requests.get(url=self.url, headers={"User-Agent": "Ru.Zubayr@gmail.com"})
+    def vac_api(self, name):
+        vac_api = requests.get(url=self.url, headers={"User-Agent": "Ru.Zubayr@gmail.com"},
+                               params={'text': name, 'page': None, 'per_page': 100})
         return vac_api.json()
 
 
-class SuperJobApi(Vacancy):
+class SuperJobAPI(Vacancy):
     url = "https://api.superjob.ru/2.0/vacancies/"
     sp_api = os.environ.get('SuperJobAPI')
 
-    def vac_api(self):
-        get_api = requests.get(url=self.url, headers={'X-Api-App-Id': self.sp_api})
+    def vac_api(self, name):
+        get_api = requests.get(url=self.url, headers={'X-Api-App-Id': self.sp_api},
+                               params={'keyword': name, 'page': None, 'per_page': 100})
         return get_api.json()
 
 
@@ -34,7 +36,6 @@ class GetVacancy(ABC):
     def __init__(self, api):
         self.api = api
         self.name = None
-        self.salary = None
         self.salary_from = None
         self.salary_to = None
         self.url = None
@@ -56,18 +57,20 @@ class VacancyHH(GetVacancy):
         list_item = []
         for item in self.api['items']:
             self.name = item['name']
-            self.salary = item['salary']
-            self.url = item['url']
+            if self.url is None:
+                self.url = "Ссылка не указана"
+            else:
+                self.url = item['url']
             if item['salary'] is not None:
                 if item['salary']['from'] is None:
-                    self.salary_from = "Зп не указана"
+                    self.salary_from = 0
                 else:
                     self.salary_from = item['salary']['from']
                 if item['salary']['to'] is None:
-                    self.salary_to = "Зп не указана"
+                    self.salary_to = 0
                 else:
                     self.salary_to = item['salary']['to']
-            if item['address'] is None:
+            if item['address'] == None or 'null':
                 self.address = "Адрес не указан"
             else:
                 self.address = item['address']['raw']
@@ -75,7 +78,6 @@ class VacancyHH(GetVacancy):
             self.work_day = item['employment']['name']
             dict_item = {
                 "name": self.name,
-                "salary": self.salary,
                 "url": self.url,
                 "salary_from": self.salary_from,
                 "salary_to": self.salary_to,
@@ -85,21 +87,6 @@ class VacancyHH(GetVacancy):
             }
             list_item.append(dict_item)
         return list_item
-
-    def __lt__(self, other):
-        if not isinstance(other, VacancySJ):
-            raise TypeError("Неправильный ввод")
-        return f"{self.salary} меньше {other.salary}"
-
-    def __eq__(self, other):
-        if not isinstance(other, VacancySJ):
-            raise TypeError("Неправильный ввод")
-        return f"{self.salary} равно {other.salary}"
-
-    def __gt__(self, other):
-        if not isinstance(other, VacancySJ):
-            raise TypeError("Неправильный ввод")
-        return f"{self.salary} больше {other.salary}"
 
 
 class VacancySJ(GetVacancy):
@@ -111,25 +98,30 @@ class VacancySJ(GetVacancy):
         list_item = []
         for item in self.api['objects']:
             self.name = item['profession']
-            self.salary_from = item['payment_from']
+            if self.url is None:
+                self.url = "Ссылка не указана"
+            else:
+                self.url = item['link']
             if item['payment_from'] is not None:
                 if item['payment_from'] == 0:
-                    self.salary_from = "Зп не указана"
+                    self.salary_from = 0
                 else:
                     self.salary_from = item['payment_from']
             if item['payment_to'] == 0:
-                self.salary_to = "Зп не указана"
+                self.salary_to = 0
             else:
                 self.salary_to = item['payment_to']
-            if self.address is None:
+            if self.address is None or 'null':
                 self.address = "Город не указан"
             else:
-                self.address = item['town']['title']
-            self.prof_rolles = item['catalogues'][0]['title']
+                self.address = item['address']
+            if item['catalogues'][0]['title'] is not None:
+                self.prof_rolles = item['catalogues'][0]['title']
+            else:
+                self.prof_rolles = "Не указано"
             self.work_day = item['type_of_work']['title']
             dict_item = {
                 "name": self.name,
-                "salary": self.salary,
                 "url": self.url,
                 "salary_from": self.salary_from,
                 "salary_to": self.salary_to,
@@ -140,75 +132,84 @@ class VacancySJ(GetVacancy):
             list_item.append(dict_item)
         return list_item
 
-    def __lt__(self, other):
-        if not isinstance(other, VacancyHH):
-            raise TypeError("Неправильный ввод")
-        return f"{self.salary} меньше {other.salary}"
 
-    def __eq__(self, other):
-        if not isinstance(other, VacancySJ):
-            raise TypeError("Неправильный ввод")
-        return f"{self.salary} равно {other.salary}"
+class JSONSaver:
 
-    def __gt__(self, other):
-        if not isinstance(other, VacancySJ):
-            raise TypeError("Неправильный ввод")
-        return f"{self.salary} больше {other.salary}"
+    def __init__(self, hh, sj):
+        self.hh = hh
+        self.sj = sj
 
+    def add_vacancy(self):
+        with open("saver.json", 'w', encoding='utf-8') as file:
+            json.dump({'vacancy_hh': self.hh,
+                      'vacancy_sj': self.sj},
+                      file, ensure_ascii=False, indent=4)
 
-class AbstractJsonSaver(ABC):
-
-    @abstractmethod
-    def add_vacancy(self, vacancy_data):
-        pass
-
-    @abstractmethod
-    def get_data(self, get_vacancy):
-        pass
-
-    @abstractmethod
-    def del_vacancy(self, vacancy_id):
-        pass
-
-
-class JsonSaver(AbstractJsonSaver):
-
-    def __init__(self, path):
-        self.path = path
-
-    def add_vacancy(self, vacancy_data):
-        with open(self.path, 'r') as file:
+    def get_vacancies(self):
+        with open('saver.json', 'r') as file:
             vacancies = json.load(file)
-            vacancies.append(vacancy_data)
-        with open(self.path, 'w') as file:
-            json.dump(vacancies, file, indent=4)
+        return vacancies
 
-    def get_data(self, get_vacancy):
-        with open(self.path, 'r') as file:
-            vacancies = json.load(file)
-            filtered_vacancies = []
-            for vacancy in vacancies:
-                if all(vacancy.get(key) == value for key, value in get_vacancy.items()):
-                    filtered_vacancies.append(vacancy)
-
-    def del_vacancy(self, vacancy_id):
-        with open(self.path, 'r') as file:
-            vacancies = json.load(file)
-            for vacancy in vacancies:
-                if vacancy['vacancy_id'] == vacancy_id:
-                    vacancies.remove(vacancy)
-                    break
-        with open(self.path, 'w') as file:
-            json.dump(vacancies, file, indent=4)
+    def delete_vacancy(self):
+        os.remove('saver.json')
 
 
-# hh = HeadHunterAPI()
-# lt = hh.vac_api()
-# lt2 = VacancyHH(lt)
-sj = SuperJobApi()
-Super = sj.vac_api()
-sjob = VacancySJ(Super)
-print(sjob.get_vacancy())
-#
-# sp_api = os.environ.get('SuperJobApi')
-# print(sp_api)
+class FilterWords:
+
+    def __init__(self, vacancies):
+        self.vacancies = vacancies
+        self.hh = self.vacancies['vacancy_hh']
+        self.sj = self.vacancies['vacancy_sj']
+
+    def filter_vacs_hh(self):
+        list_1 = []
+        dict_1 = []
+
+        for i in self.hh:
+            if i['salary_from'] and i['salary_to'] == 0:
+                continue
+            elif i['salary_from'] != 0:
+                dict_1.append(i['salary_from'])
+            elif i['salary_to'] != 0:
+                dict_1.append(i['salary_to'])
+        dict_1.sort(reverse=True)
+
+        for o in dict_1:
+            for i in self.hh:
+                if o == i['salary_from']:
+                    name_sal = f"{i['name']}, {i['salary_from']}"
+                    list_1.append(name_sal)
+                elif o == ['salary_to']:
+                    name_sal = f"{i['name']}, {i['salary_to']}"
+                    list_1.append(name_sal)
+        return list_1
+
+    def filter_vacs_sj(self):
+        list_1 = []
+        dict_1 = []
+
+        for i in self.sj:
+            if i['salary_from'] and i['salary_to'] == 0:
+                continue
+            elif i['salary_from'] != 0:
+                dict_1.append(i['salary_from'])
+            elif i['salary_to'] != 0:
+                dict_1.append(i['salary_to'])
+        dict_1.sort(reverse=True)
+
+        for o in dict_1:
+            for i in self.sj:
+                if o == i['salary_from']:
+                    name_sal = f"{i['name']}, {i['salary_from']}"
+                    list_1.append(name_sal)
+                elif o == ['salary_to']:
+                    name_sal = f"{i['name']}, {i['salary_to']}"
+                    list_1.append(name_sal)
+        return list_1
+
+
+
+
+
+
+
