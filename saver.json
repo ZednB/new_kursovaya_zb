@@ -19,21 +19,21 @@
             "work_day": "Полная занятость"
         },
         {
-            "name": "Официант и бармен",
-            "url": "https://api.hh.ru/vacancies/90236770?host=hh.ru",
-            "salary_from": 80000,
-            "salary_to": 120000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Официант, бармен, бариста",
-            "work_day": "Полная занятость"
-        },
-        {
             "name": "Помощник Чародея",
             "url": "https://api.hh.ru/vacancies/90352894?host=hh.ru",
             "salary_from": 150000,
             "salary_to": 250000,
             "address": "Адрес не указан",
             "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
+            "work_day": "Полная занятость"
+        },
+        {
+            "name": "Официант и бармен",
+            "url": "https://api.hh.ru/vacancies/90236770?host=hh.ru",
+            "salary_from": 80000,
+            "salary_to": 120000,
+            "address": "Адрес не указан",
+            "prof_rolles": "Официант, бармен, бариста",
             "work_day": "Полная занятость"
         },
         {

@@ -60,3 +60,4 @@ if __name__ == "__main__":
                 filter_sal = FilterWords(get_vacancies())
                 print(". ".join(filter_sal.filter_vacs_sj()))
                 break
+        saver.delete_vacancy()
