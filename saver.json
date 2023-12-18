@@ -1,0 +1,276 @@
+{
+    "vacancy_hh": [
+        {
+            "name": "Бариста (г. Москва)",
+            "url": "Ссылка не указана",
+            "salary_from": 60000,
+            "salary_to": 70000,
+            "address": "Адрес не указан",
+            "prof_rolles": "Официант, бармен, бариста",
+            "work_day": "Полная занятость"
+        },
+        {
+            "name": "Кассир",
+            "url": "https://api.hh.ru/vacancies/90522862?host=hh.ru",
+            "salary_from": 0,
+            "salary_to": 70000,
+            "address": "Адрес не указан",
+            "prof_rolles": "Кассир-операционист",
+            "work_day": "Полная занятость"
+        },
+        {
+            "name": "Официант и бармен",
+            "url": "https://api.hh.ru/vacancies/90236770?host=hh.ru",
+            "salary_from": 80000,
+            "salary_to": 120000,
+            "address": "Адрес не указан",
+            "prof_rolles": "Официант, бармен, бариста",
+            "work_day": "Полная занятость"
+        },
+        {
+            "name": "Помощник Чародея",
+            "url": "https://api.hh.ru/vacancies/90352894?host=hh.ru",
+            "salary_from": 150000,
+            "salary_to": 250000,
+            "address": "Адрес не указан",
+            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
+            "work_day": "Полная занятость"
+        },
+        {
+            "name": "Администратор",
+            "url": "https://api.hh.ru/vacancies/88481846?host=hh.ru",
+            "salary_from": 50000,
+            "salary_to": 70000,
+            "address": "Адрес не указан",
+            "prof_rolles": "Менеджер ресторана",
+            "work_day": "Полная занятость"
+        },
+        {
+            "name": "Хостес Bosco Restaurant (Красная площадь, ГУМ)",
+            "url": "https://api.hh.ru/vacancies/89126646?host=hh.ru",
+            "salary_from": 60000,
+            "salary_to": 0,
+            "address": "Адрес не указан",
+            "prof_rolles": "Хостес",
+            "work_day": "Полная занятость"
+        },
+        {
+            "name": "Официант",
+            "url": "https://api.hh.ru/vacancies/90742669?host=hh.ru",
+            "salary_from": 400000,
+            "salary_to": 650000,
+            "address": "Адрес не указан",
+            "prof_rolles": "Официант, бармен, бариста",
+            "work_day": "Полная занятость"
+        },
+        {
+            "name": "Официант 2/2 (10-00:00)",
+            "url": "https://api.hh.ru/vacancies/82028749?host=hh.ru",
+            "salary_from": 50000,
+            "salary_to": 0,
+            "address": "Адрес не указан",
+            "prof_rolles": "Официант, бармен, бариста",
+            "work_day": "Полная занятость"
+        },
+        {
+            "name": "Официант",
+            "url": "https://api.hh.ru/vacancies/90438845?host=hh.ru",
+            "salary_from": 110000,
+            "salary_to": 130000,
+            "address": "Адрес не указан",
+            "prof_rolles": "Официант, бармен, бариста",
+            "work_day": "Полная занятость"
+        },
+        {
+            "name": "Официант",
+            "url": "https://api.hh.ru/vacancies/90745171?host=hh.ru",
+            "salary_from": 300000,
+            "salary_to": 700000,
+            "address": "Адрес не указан",
+            "prof_rolles": "Официант, бармен, бариста",
+            "work_day": "Полная занятость"
+        }
+    ],
+    "vacancy_sj": [
+        {
+            "name": "Официант / Бариста-официант в кафетерий (м. Крылатская)",
+            "url": "Ссылка не указана",
+            "salary_from": 50000,
+            "salary_to": 65000,
+            "address": "Город не указан",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Сменный график работы"
+        },
+        {
+            "name": "Кассир официант",
+            "url": "https://istra.superjob.ru/vakansii/kassir-oficiant-48086495.html",
+            "salary_from": 52500,
+            "salary_to": 77000,
+            "address": "Город не указан",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Неполный рабочий день"
+        },
+        {
+            "name": "Официант (г. Мытищи)",
+            "url": "https://mytischi.superjob.ru/vakansii/oficiant-31932955.html",
+            "salary_from": 60000,
+            "salary_to": 0,
+            "address": "Город не указан",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Сменный график работы"
+        },
+        {
+            "name": "Официант-бармен",
+            "url": "https://krasnogorsk.superjob.ru/vakansii/oficiant-barmen-38926141.html",
+            "salary_from": 80000,
+            "salary_to": 0,
+            "address": "Город не указан",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Сменный график работы"
+        },
+        {
+            "name": "Официант",
+            "url": "https://schelkovo.superjob.ru/vakansii/oficiant-46630518.html",
+            "salary_from": 0,
+            "salary_to": 0,
+            "address": "Город не указан",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Сменный график работы"
+        },
+        {
+            "name": "Официант",
+            "url": "https://arhangelsk.superjob.ru/vakansii/oficiant-47084715.html",
+            "salary_from": 35000,
+            "salary_to": 0,
+            "address": "Город не указан",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Сменный график работы"
+        },
+        {
+            "name": "Официант",
+            "url": "https://izhevsk.superjob.ru/vakansii/oficiant-47131134.html",
+            "salary_from": 27000,
+            "salary_to": 0,
+            "address": "Город не указан",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Неполный рабочий день"
+        },
+        {
+            "name": "Официант",
+            "url": "https://mineralnye-vody.superjob.ru/vakansii/oficiant-47467878.html",
+            "salary_from": 3000,
+            "salary_to": 3500,
+            "address": "Город не указан",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Полный рабочий день"
+        },
+        {
+            "name": "Официант",
+            "url": "https://komsomolsk-na-amure.superjob.ru/vakansii/oficiant-47469142.html",
+            "salary_from": 40000,
+            "salary_to": 0,
+            "address": "Город не указан",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Сменный график работы"
+        },
+        {
+            "name": "Официант в ресторан",
+            "url": "https://volgograd.superjob.ru/vakansii/oficiant-v-restoran-47746094.html",
+            "salary_from": 25000,
+            "salary_to": 30000,
+            "address": "Город не указан",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Полный рабочий день"
+        },
+        {
+            "name": "Официант",
+            "url": "https://mezhdurechensk.superjob.ru/vakansii/oficiant-47747359.html",
+            "salary_from": 0,
+            "salary_to": 0,
+            "address": "Город не указан",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Полный рабочий день"
+        },
+        {
+            "name": "Официант в ресторан",
+            "url": "https://istra.superjob.ru/vakansii/oficiant-v-restoran-47850992.html",
+            "salary_from": 40000,
+            "salary_to": 50000,
+            "address": "Город не указан",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Полный рабочий день"
+        },
+        {
+            "name": "Официант",
+            "url": "https://melitopol.superjob.ru/vakansii/oficiant-47749145.html",
+            "salary_from": 0,
+            "salary_to": 100000,
+            "address": "Город не указан",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Полный рабочий день"
+        },
+        {
+            "name": "Бармен-официант",
+            "url": "https://spb.superjob.ru/vakansii/barmen-oficiant-47976428.html",
+            "salary_from": 50000,
+            "salary_to": 80000,
+            "address": "Город не указан",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Полный рабочий день"
+        },
+        {
+            "name": "Официант",
+            "url": "https://www.superjob.ru/vakansii/oficiant-48019605.html",
+            "salary_from": 47000,
+            "salary_to": 67000,
+            "address": "Город не указан",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Сменный график работы"
+        },
+        {
+            "name": "Официант в столовую",
+            "url": "https://solnechnogorsk.superjob.ru/vakansii/oficiant-v-stolovuyu-47858742.html",
+            "salary_from": 29000,
+            "salary_to": 58000,
+            "address": "Город не указан",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Работа вахтовым методом"
+        },
+        {
+            "name": "Официант",
+            "url": "https://spb.superjob.ru/vakansii/oficiant-47135683.html",
+            "salary_from": 50000,
+            "salary_to": 80000,
+            "address": "Город не указан",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Сменный график работы"
+        },
+        {
+            "name": "Официант (в ресторан)",
+            "url": "https://www.superjob.ru/vakansii/oficiant-47744069.html",
+            "salary_from": 50000,
+            "salary_to": 0,
+            "address": "Город не указан",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Сменный график работы"
+        },
+        {
+            "name": "Бариста-официант",
+            "url": "https://www.superjob.ru/vakansii/barista-oficiant-47467747.html",
+            "salary_from": 45000,
+            "salary_to": 60000,
+            "address": "Город не указан",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Полный рабочий день"
+        },
+        {
+            "name": "Официант",
+            "url": "https://www.superjob.ru/vakansii/oficiant-46629013.html",
+            "salary_from": 100000,
+            "salary_to": 120000,
+            "address": "Город не указан",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Сменный график работы"
+        }
+    ]
+}
