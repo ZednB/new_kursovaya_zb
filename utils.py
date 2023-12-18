@@ -17,7 +17,7 @@ class HeadHunterAPI(Vacancy):
 
     def vac_api(self, name):
         vac_api = requests.get(url=self.url, headers={"User-Agent": "Ru.Zubayr@gmail.com"},
-                               params={'text': name, 'page': None, 'per_page': 100})
+                               params={'text': name, 'page': None, 'per_page': 10})
         return vac_api.json()
 
 
@@ -27,7 +27,7 @@ class SuperJobAPI(Vacancy):
 
     def vac_api(self, name):
         get_api = requests.get(url=self.url, headers={'X-Api-App-Id': self.sp_api},
-                               params={'keyword': name, 'page': None, 'per_page': 100})
+                               params={'keyword': name, 'page': None, 'per_page': 10})
         return get_api.json()
 
 
@@ -70,7 +70,7 @@ class VacancyHH(GetVacancy):
                     self.salary_to = 0
                 else:
                     self.salary_to = item['salary']['to']
-            if item['address'] == None or 'null':
+            if item['address'] is None or 'null':
                 self.address = "Адрес не указан"
             else:
                 self.address = item['address']['raw']
@@ -131,6 +131,16 @@ class VacancySJ(GetVacancy):
             }
             list_item.append(dict_item)
         return list_item
+
+
+def get_vacancies():
+    with open('saver.json', 'r') as file:
+        vacancies = json.load(file)
+    return vacancies
+
+
+def delete_vacancy():
+    os.remove('saver.json')
 
 
 class JSONSaver:
@@ -203,13 +213,51 @@ class FilterWords:
                     name_sal = f"{i['name']}, {i['salary_from']}"
                     list_1.append(name_sal)
                 elif o == ['salary_to']:
-                    name_sal = f"{i['name']}, {i['salary_to']}"
+                    name_sal = f"{i['name']}, {i['url']}, {i['address']}, {i['work_day']}, {i['salary_to']}"
                     list_1.append(name_sal)
         return list_1
 
 
+class FilterRolles:
 
+    def __init__(self, vacancies):
+        self.vacancies = vacancies
+        self.hh = self.vacancies['vacancy_hh']
+        self.sj = self.vacancies['vacancy_sj']
 
+    def filter_rolles_hh(self):
+        list_1 = []
+        dict_1 = []
 
+        for i in self.hh:
+            if i['prof_rolles'] is None:
+                continue
+            elif i['prof_rolles'] is not None:
+                dict_1.append(i['prof_rolles'])
+        dict_1.sort(reverse=True)
 
+        for o in dict_1:
+            for i in self.hh:
+                if o == i['prof_rolles']:
+                    prof_words = f"{i['name']}, {i['url']}, {i['address']}, {i['work_day']}, {i['prof_rolles']}, {i['salary_from']}"
+                    list_1.append(prof_words)
 
+        return list_1
+
+    def filter_rolles_sj(self):
+        list_1 = []
+        dict_1 = []
+
+        for i in self.sj:
+            if i['prof_rolles'] is None:
+                continue
+            elif i['prof_rolles'] is not None:
+                dict_1.append(i['prof_rolles'])
+        dict_1.sort(reverse=True)
+
+        for o in dict_1:
+            for i in self.sj:
+                if o == i['prof_rolles']:
+                    prof_words = f"{i['name']}, {i['url']}, {i['address']}, {i['work_day']}, {i['prof_rolles']}, {i['salary_from']}"
+                    list_1.append(prof_words)
+        return list_1

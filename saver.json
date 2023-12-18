@@ -1,1086 +1,276 @@
 {
     "vacancy_hh": [
         {
-            "name": "Дегустатор напитков Bubble Tea в сеть Bubble Bob / Менеджер по дегустациям",
+            "name": "Бариста (г. Москва)",
             "url": "Ссылка не указана",
-            "salary_from": 3000000,
-            "salary_to": 0,
+            "salary_from": 60000,
+            "salary_to": 70000,
             "address": "Адрес не указан",
             "prof_rolles": "Официант, бармен, бариста",
-            "work_day": "Частичная занятость"
-        },
-        {
-            "name": "Менеджер чатов на дому (в Яндекс)",
-            "url": "https://api.hh.ru/vacancies/90034000?host=hh.ru",
-            "salary_from": 30000,
-            "salary_to": 44000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Другое",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по просмотру сериалов и фильмов (новогодних)",
-            "url": "https://api.hh.ru/vacancies/90190375?host=hh.ru",
-            "salary_from": 200000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по маркетингу, интернет-маркетолог",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по продажам (автозапчасти)",
-            "url": "https://api.hh.ru/vacancies/90560362?host=hh.ru",
-            "salary_from": 80000,
-            "salary_to": 100000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Офис-менеджер",
-            "url": "https://api.hh.ru/vacancies/90362299?host=hh.ru",
-            "salary_from": 5000000,
-            "salary_to": 15000000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Офис-менеджер",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер чатов, удалённо (в Яндекс)",
-            "url": "https://api.hh.ru/vacancies/90020668?host=hh.ru",
-            "salary_from": 30000,
-            "salary_to": 44000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Другое",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по продажам (ПолиТэр)",
-            "url": "https://api.hh.ru/vacancies/90401899?host=hh.ru",
-            "salary_from": 150000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по продажам (без холодных продаж)",
-            "url": "https://api.hh.ru/vacancies/89942924?host=hh.ru",
-            "salary_from": 50000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Оператор call-центра, специалист контактного центра",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по работе с клиентами/Координатор/Оператор 1с",
-            "url": "https://api.hh.ru/vacancies/90669717?host=hh.ru",
-            "salary_from": 90000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по продажам (производство)",
-            "url": "https://api.hh.ru/vacancies/89869969?host=hh.ru",
-            "salary_from": 250000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по текущим клиентам (КазСнаб)",
-            "url": "https://api.hh.ru/vacancies/90299716?host=hh.ru",
-            "salary_from": 100000,
-            "salary_to": 150000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по продажам в call-центр",
-            "url": "https://api.hh.ru/vacancies/89886395?host=hh.ru",
-            "salary_from": 5000000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Оператор call-центра, специалист контактного центра",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по продажам",
-            "url": "https://api.hh.ru/vacancies/90270874?host=hh.ru",
-            "salary_from": 110000,
-            "salary_to": 180000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по продажам",
-            "url": "https://api.hh.ru/vacancies/90100375?host=hh.ru",
-            "salary_from": 80000,
-            "salary_to": 150000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер в эзотерический интернет-магазин и шоу-рум",
-            "url": "https://api.hh.ru/vacancies/88775667?host=hh.ru",
-            "salary_from": 80000,
-            "salary_to": 120000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Офис-менеджер",
-            "url": "https://api.hh.ru/vacancies/90687998?host=hh.ru",
-            "salary_from": 40000,
-            "salary_to": 45000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Офис-менеджер",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Младший менеджер проектов",
-            "url": "https://api.hh.ru/vacancies/90700048?host=hh.ru",
-            "salary_from": 1500,
-            "salary_to": 2500,
-            "address": "Адрес не указан",
-            "prof_rolles": "Руководитель проектов",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по продажам",
-            "url": "https://api.hh.ru/vacancies/90110512?host=hh.ru",
-            "salary_from": 60000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по работе с клиентами (на Пхукете)",
-            "url": "https://api.hh.ru/vacancies/90565082?host=hh.ru",
-            "salary_from": 60000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Junior Product Manager",
-            "url": "https://api.hh.ru/vacancies/90005929?host=hh.ru",
-            "salary_from": 1500,
-            "salary_to": 2000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер продукта",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Офис-менеджер",
-            "url": "https://api.hh.ru/vacancies/90668805?host=hh.ru",
-            "salary_from": 45000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Офис-менеджер",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Помощник менеджера маркетплейса Wildberries",
-            "url": "https://api.hh.ru/vacancies/90560743?host=hh.ru",
-            "salary_from": 1200,
-            "salary_to": 2500,
-            "address": "Адрес не указан",
-            "prof_rolles": "SMM-менеджер, контент-менеджер",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер ПВЗ Baйлдбериз",
-            "url": "https://api.hh.ru/vacancies/90661768?host=hh.ru",
-            "salary_from": 600,
-            "salary_to": 1300,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Региональный менеджер по продажам (Промэнерго)",
-            "url": "https://api.hh.ru/vacancies/90407361?host=hh.ru",
-            "salary_from": 250000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по работе с клиентами (по телефону)",
-            "url": "https://api.hh.ru/vacancies/89658536?host=hh.ru",
-            "salary_from": 40000,
-            "salary_to": 110000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Оператор call-центра, специалист контактного центра",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Офис-менеджер",
-            "url": "https://api.hh.ru/vacancies/90637722?host=hh.ru",
-            "salary_from": 3000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Офис-менеджер",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Ведущий финансовый менеджер",
-            "url": "https://api.hh.ru/vacancies/90645144?host=hh.ru",
-            "salary_from": 3000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Финансовый менеджер",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер ресторана",
-            "url": "https://api.hh.ru/vacancies/90551458?host=hh.ru",
-            "salary_from": 400000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер ресторана",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер B2B",
-            "url": "https://api.hh.ru/vacancies/89973608?host=hh.ru",
-            "salary_from": 90000,
-            "salary_to": 300000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по работе с клиентами/Администратор",
-            "url": "https://api.hh.ru/vacancies/89319809?host=hh.ru",
-            "salary_from": 75000,
-            "salary_to": 80000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер оптового отдела продаж",
-            "url": "https://api.hh.ru/vacancies/89802379?host=hh.ru",
-            "salary_from": 90000,
-            "salary_to": 200000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по продажам (производство)",
-            "url": "https://api.hh.ru/vacancies/89869786?host=hh.ru",
-            "salary_from": 150000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Региональный менеджер",
-            "url": "https://api.hh.ru/vacancies/90687038?host=hh.ru",
-            "salary_from": 150000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Ведущий менеджер по продажам",
-            "url": "https://api.hh.ru/vacancies/89363338?host=hh.ru",
-            "salary_from": 150000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по маркетплейсам OZON и wildberries",
-            "url": "https://api.hh.ru/vacancies/90648343?host=hh.ru",
-            "salary_from": 1500,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по продажам (без поиска клиентов)",
-            "url": "https://api.hh.ru/vacancies/90657132?host=hh.ru",
-            "salary_from": 80000,
-            "salary_to": 120000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по маркетплейсам OZON и wildberries",
-            "url": "https://api.hh.ru/vacancies/90648345?host=hh.ru",
-            "salary_from": 1500,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Делопроизводитель/офис-менеджер/",
-            "url": "https://api.hh.ru/vacancies/90632412?host=hh.ru",
-            "salary_from": 50000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Делопроизводитель, архивариус",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по маркетплейсам OZON и wildberries",
-            "url": "https://api.hh.ru/vacancies/90648344?host=hh.ru",
-            "salary_from": 1500,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер ресторана",
-            "url": "https://api.hh.ru/vacancies/90569886?host=hh.ru",
-            "salary_from": 0,
-            "salary_to": 800000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер ресторана",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер в отдел по приему и выдачи документов",
-            "url": "https://api.hh.ru/vacancies/90651789?host=hh.ru",
-            "salary_from": 0,
-            "salary_to": 800000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Офис-менеджер",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Ведущий / Главный менеджер по работе с клиентами",
-            "url": "https://api.hh.ru/vacancies/87591341?host=hh.ru",
-            "salary_from": 70000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Офис-менеджер",
-            "url": "https://api.hh.ru/vacancies/87987539?host=hh.ru",
-            "salary_from": 35000,
-            "salary_to": 40000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Офис-менеджер",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по работе с клиентами (без поиска, без звонков)",
-            "url": "https://api.hh.ru/vacancies/89993254?host=hh.ru",
-            "salary_from": 100000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Онлайн-Менеджер",
-            "url": "https://api.hh.ru/vacancies/90668673?host=hh.ru",
-            "salary_from": 200000,
-            "salary_to": 350000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Другое",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по проектам",
-            "url": "https://api.hh.ru/vacancies/89822377?host=hh.ru",
-            "salary_from": 200000,
-            "salary_to": 350000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по работе с партнерами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "PR менеджер/Менеджер по работе со СМИ",
-            "url": "https://api.hh.ru/vacancies/87686436?host=hh.ru",
-            "salary_from": 200000,
-            "salary_to": 350000,
-            "address": "Адрес не указан",
-            "prof_rolles": "PR-менеджер",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по продажам",
-            "url": "https://api.hh.ru/vacancies/89883167?host=hh.ru",
-            "salary_from": 100000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Помощник СММ - менеджера",
-            "url": "https://api.hh.ru/vacancies/90618123?host=hh.ru",
-            "salary_from": 40000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "SMM-менеджер, контент-менеджер",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по продажам",
-            "url": "https://api.hh.ru/vacancies/90660943?host=hh.ru",
-            "salary_from": 50000,
-            "salary_to": 100000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по продажам металлопроката",
-            "url": "https://api.hh.ru/vacancies/90009428?host=hh.ru",
-            "salary_from": 300000,
-            "salary_to": 700000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по работе с клиентами",
-            "url": "https://api.hh.ru/vacancies/89788695?host=hh.ru",
-            "salary_from": 80000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Другое",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "SMM-менеджер (Instagram)",
-            "url": "https://api.hh.ru/vacancies/90605812?host=hh.ru",
-            "salary_from": 1000,
-            "salary_to": 3000,
-            "address": "Адрес не указан",
-            "prof_rolles": "SMM-менеджер, контент-менеджер",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Junior product manager",
-            "url": "https://api.hh.ru/vacancies/88640210?host=hh.ru",
-            "salary_from": 1000,
-            "salary_to": 3000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер продукта",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по продажам b2b",
-            "url": "https://api.hh.ru/vacancies/89164986?host=hh.ru",
-            "salary_from": 156600,
-            "salary_to": 200000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по маркетплейсам OZON и wildberries",
-            "url": "https://api.hh.ru/vacancies/90648346?host=hh.ru",
-            "salary_from": 1500,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Аккаунт менеджер в отдел продаж",
-            "url": "https://api.hh.ru/vacancies/90285712?host=hh.ru",
-            "salary_from": 50000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Региональный менеджер по продажам и развитию",
-            "url": "https://api.hh.ru/vacancies/90660591?host=hh.ru",
-            "salary_from": 50000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Региональный менеджер по продажам (Фергана,Наманган,Андижан)",
-            "url": "https://api.hh.ru/vacancies/90634449?host=hh.ru",
-            "salary_from": 6000000,
-            "salary_to": 10000000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по продажам",
-            "url": "https://api.hh.ru/vacancies/90684503?host=hh.ru",
-            "salary_from": 500,
-            "salary_to": 2000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по работе с корпоративными клиентами",
-            "url": "https://api.hh.ru/vacancies/89685120?host=hh.ru",
-            "salary_from": 150000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по привлечению клиентов (офисная работа)",
-            "url": "https://api.hh.ru/vacancies/90457651?host=hh.ru",
-            "salary_from": 0,
-            "salary_to": 55000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер-делопроизводитель",
-            "url": "https://api.hh.ru/vacancies/90670525?host=hh.ru",
-            "salary_from": 45000,
-            "salary_to": 80000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по закупкам",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по продажам",
-            "url": "https://api.hh.ru/vacancies/87573086?host=hh.ru",
-            "salary_from": 90000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по работе с маркетплейсами «Wildberries»",
-            "url": "https://api.hh.ru/vacancies/89631152?host=hh.ru",
-            "salary_from": 800,
-            "salary_to": 2500,
-            "address": "Адрес не указан",
-            "prof_rolles": "Другое",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Ассистент менеджера по продажам",
-            "url": "https://api.hh.ru/vacancies/85967737?host=hh.ru",
-            "salary_from": 60000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Координатор отдела продаж",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по продажам",
-            "url": "https://api.hh.ru/vacancies/90183812?host=hh.ru",
-            "salary_from": 130000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по продажам B2B KAM",
-            "url": "https://api.hh.ru/vacancies/90267131?host=hh.ru",
-            "salary_from": 80000,
-            "salary_to": 120000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Специалист по персоналу (HR менеджер)",
-            "url": "https://api.hh.ru/vacancies/90634035?host=hh.ru",
-            "salary_from": 60000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по персоналу",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по продажам",
-            "url": "https://api.hh.ru/vacancies/88616022?host=hh.ru",
-            "salary_from": 60000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по продажам",
-            "url": "https://api.hh.ru/vacancies/88936472?host=hh.ru",
-            "salary_from": 150000,
-            "salary_to": 300000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Офис-менеджер",
-            "url": "https://api.hh.ru/vacancies/90671943?host=hh.ru",
-            "salary_from": 100000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Офис-менеджер",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по продажам сельскохозяйственной техники",
-            "url": "https://api.hh.ru/vacancies/89601249?host=hh.ru",
-            "salary_from": 0,
-            "salary_to": 150000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Финансовый менеджер",
-            "url": "https://api.hh.ru/vacancies/90666672?host=hh.ru",
-            "salary_from": 120000,
-            "salary_to": 150000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Финансовый менеджер",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Региональный менеджер по продажам / Regional Sales Manager",
-            "url": "https://api.hh.ru/vacancies/90635696?host=hh.ru",
-            "salary_from": 120000,
-            "salary_to": 150000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер/организатор в \"MAFIA VERO\" (Минск)",
-            "url": "https://api.hh.ru/vacancies/89625602?host=hh.ru",
-            "salary_from": 500,
-            "salary_to": 4100,
-            "address": "Адрес не указан",
-            "prof_rolles": "SMM-менеджер, контент-менеджер",
-            "work_day": "Частичная занятость"
-        },
-        {
-            "name": "Младший менеджер проектов",
-            "url": "https://api.hh.ru/vacancies/90448720?host=hh.ru",
-            "salary_from": 500,
-            "salary_to": 4100,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по маркетингу, интернет-маркетолог",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по продажам (аудиовизуальное оборудование, B2B, опт)",
-            "url": "https://api.hh.ru/vacancies/90435591?host=hh.ru",
-            "salary_from": 80000,
-            "salary_to": 300000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Офис-менеджер/Помощник руководителя/Персональный ассистент",
-            "url": "https://api.hh.ru/vacancies/90655707?host=hh.ru",
-            "salary_from": 80000,
-            "salary_to": 300000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Секретарь, помощник руководителя, ассистент",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Старший клиентский менеджер в банк (офис)",
-            "url": "https://api.hh.ru/vacancies/90356364?host=hh.ru",
-            "salary_from": 85000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Офис-менеджер",
-            "url": "https://api.hh.ru/vacancies/89682197?host=hh.ru",
-            "salary_from": 85000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Офис-менеджер",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по счастью",
-            "url": "https://api.hh.ru/vacancies/90105212?host=hh.ru",
-            "salary_from": 150000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по продажам в онлайн школу",
-            "url": "https://api.hh.ru/vacancies/90049468?host=hh.ru",
-            "salary_from": 75000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Частичная занятость"
-        },
-        {
-            "name": "Менеджер по продажам В2В/региональный менеджер/менеджер по развитию дистрибьюторов",
-            "url": "https://api.hh.ru/vacancies/89964841?host=hh.ru",
-            "salary_from": 75000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по продажам, продавец-консультант",
-            "url": "https://api.hh.ru/vacancies/90661203?host=hh.ru",
-            "salary_from": 800,
-            "salary_to": 1200,
-            "address": "Адрес не указан",
-            "prof_rolles": "Продавец-консультант, продавец-кассир",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер (специалист по делопроизводству)",
-            "url": "https://api.hh.ru/vacancies/90608288?host=hh.ru",
-            "salary_from": 42000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Делопроизводитель, архивариус",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по сопровождению интернет заказов",
-            "url": "https://api.hh.ru/vacancies/90661169?host=hh.ru",
-            "salary_from": 60000,
-            "salary_to": 85000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Другое",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Офис-менеджер / помощник руководителя",
-            "url": "https://api.hh.ru/vacancies/89703759?host=hh.ru",
-            "salary_from": 200000,
-            "salary_to": 200000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Офис-менеджер",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Помощник менеджера по работе с маркетплейсами OZON, WB",
-            "url": "https://api.hh.ru/vacancies/89757569?host=hh.ru",
-            "salary_from": 1000,
-            "salary_to": 1500,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по продажам",
-            "url": "https://api.hh.ru/vacancies/90409518?host=hh.ru",
-            "salary_from": 60000,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер на входящие сообщения от 2 часов в день/ работа удаленно",
-            "url": "https://api.hh.ru/vacancies/80976655?host=hh.ru",
-            "salary_from": 60000,
-            "salary_to": 120000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по персоналу",
-            "work_day": "Частичная занятость"
-        },
-        {
-            "name": "Менеджер по продажам (Москва)",
-            "url": "https://api.hh.ru/vacancies/90608569?host=hh.ru",
-            "salary_from": 60000,
-            "salary_to": 120000,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
-            "work_day": "Полная занятость"
-        },
-        {
-            "name": "Менеджер по продажам",
-            "url": "https://api.hh.ru/vacancies/90546862?host=hh.ru",
-            "salary_from": 1500,
-            "salary_to": 0,
-            "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
             "work_day": "Полная занятость"
         },
         {
-            "name": "Офис-менеджер",
-            "url": "https://api.hh.ru/vacancies/90614698?host=hh.ru",
+            "name": "Кассир",
+            "url": "https://api.hh.ru/vacancies/90522862?host=hh.ru",
             "salary_from": 0,
             "salary_to": 70000,
             "address": "Адрес не указан",
-            "prof_rolles": "Офис-менеджер",
+            "prof_rolles": "Кассир-операционист",
             "work_day": "Полная занятость"
         },
         {
-            "name": "Менеджер по продажам логистических услуг (B2B)",
-            "url": "https://api.hh.ru/vacancies/86036297?host=hh.ru",
-            "salary_from": 0,
-            "salary_to": 4000,
+            "name": "Официант и бармен",
+            "url": "https://api.hh.ru/vacancies/90236770?host=hh.ru",
+            "salary_from": 80000,
+            "salary_to": 120000,
+            "address": "Адрес не указан",
+            "prof_rolles": "Официант, бармен, бариста",
+            "work_day": "Полная занятость"
+        },
+        {
+            "name": "Помощник Чародея",
+            "url": "https://api.hh.ru/vacancies/90352894?host=hh.ru",
+            "salary_from": 150000,
+            "salary_to": 250000,
             "address": "Адрес не указан",
             "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
             "work_day": "Полная занятость"
         },
         {
-            "name": "Менеджер по продажам / Менеджер по работе с клиентами",
-            "url": "https://api.hh.ru/vacancies/90519792?host=hh.ru",
-            "salary_from": 35000,
-            "salary_to": 65000,
+            "name": "Администратор",
+            "url": "https://api.hh.ru/vacancies/88481846?host=hh.ru",
+            "salary_from": 50000,
+            "salary_to": 70000,
             "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
+            "prof_rolles": "Менеджер ресторана",
             "work_day": "Полная занятость"
         },
         {
-            "name": "Менеджер по продажам в Департамент страхования грузов",
-            "url": "https://api.hh.ru/vacancies/89724836?host=hh.ru",
-            "salary_from": 200000,
+            "name": "Хостес Bosco Restaurant (Красная площадь, ГУМ)",
+            "url": "https://api.hh.ru/vacancies/89126646?host=hh.ru",
+            "salary_from": 60000,
             "salary_to": 0,
             "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
+            "prof_rolles": "Хостес",
             "work_day": "Полная занятость"
         },
         {
-            "name": "Менеджер по работе с клиентами",
-            "url": "https://api.hh.ru/vacancies/89561638?host=hh.ru",
-            "salary_from": 100000,
-            "salary_to": 150000,
+            "name": "Официант",
+            "url": "https://api.hh.ru/vacancies/90742669?host=hh.ru",
+            "salary_from": 400000,
+            "salary_to": 650000,
             "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
+            "prof_rolles": "Официант, бармен, бариста",
             "work_day": "Полная занятость"
         },
         {
-            "name": "Менеджер по документообороту",
-            "url": "https://api.hh.ru/vacancies/90627582?host=hh.ru",
-            "salary_from": 40000,
+            "name": "Официант 2/2 (10-00:00)",
+            "url": "https://api.hh.ru/vacancies/82028749?host=hh.ru",
+            "salary_from": 50000,
             "salary_to": 0,
             "address": "Адрес не указан",
-            "prof_rolles": "Делопроизводитель, архивариус",
+            "prof_rolles": "Официант, бармен, бариста",
             "work_day": "Полная занятость"
         },
         {
-            "name": "Менеджер отдела по работе с портами",
-            "url": "https://api.hh.ru/vacancies/90651348?host=hh.ru",
-            "salary_from": 287000,
-            "salary_to": 0,
+            "name": "Официант",
+            "url": "https://api.hh.ru/vacancies/90438845?host=hh.ru",
+            "salary_from": 110000,
+            "salary_to": 130000,
             "address": "Адрес не указан",
-            "prof_rolles": "Менеджер по продажам, менеджер по работе с клиентами",
+            "prof_rolles": "Официант, бармен, бариста",
+            "work_day": "Полная занятость"
+        },
+        {
+            "name": "Официант",
+            "url": "https://api.hh.ru/vacancies/90745171?host=hh.ru",
+            "salary_from": 300000,
+            "salary_to": 700000,
+            "address": "Адрес не указан",
+            "prof_rolles": "Официант, бармен, бариста",
             "work_day": "Полная занятость"
         }
     ],
     "vacancy_sj": [
         {
-            "name": "Менеджер по подбору персонала",
+            "name": "Официант / Бариста-официант в кафетерий (м. Крылатская)",
             "url": "Ссылка не указана",
-            "salary_from": 60000,
-            "salary_to": 80000,
+            "salary_from": 50000,
+            "salary_to": 65000,
             "address": "Город не указан",
-            "prof_rolles": "Кадры, управление персоналом",
-            "work_day": "Полный рабочий день"
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Сменный график работы"
         },
         {
-            "name": "Контент-менеджер",
-            "url": "https://www.superjob.ru/vakansii/kontent-menedzher-48076720.html",
+            "name": "Кассир официант",
+            "url": "https://istra.superjob.ru/vakansii/kassir-oficiant-48086495.html",
+            "salary_from": 52500,
+            "salary_to": 77000,
+            "address": "Город не указан",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Неполный рабочий день"
+        },
+        {
+            "name": "Официант (г. Мытищи)",
+            "url": "https://mytischi.superjob.ru/vakansii/oficiant-31932955.html",
+            "salary_from": 60000,
+            "salary_to": 0,
+            "address": "Город не указан",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Сменный график работы"
+        },
+        {
+            "name": "Официант-бармен",
+            "url": "https://krasnogorsk.superjob.ru/vakansii/oficiant-barmen-38926141.html",
+            "salary_from": 80000,
+            "salary_to": 0,
+            "address": "Город не указан",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Сменный график работы"
+        },
+        {
+            "name": "Официант",
+            "url": "https://schelkovo.superjob.ru/vakansii/oficiant-46630518.html",
             "salary_from": 0,
             "salary_to": 0,
             "address": "Город не указан",
-            "prof_rolles": "Маркетинг, реклама, PR",
-            "work_day": "Полный рабочий день"
-        },
-        {
-            "name": "Менеджер по кредитованию",
-            "url": "https://ulyanovsk.superjob.ru/vakansii/menedzher-po-kreditovaniyu-48254079.html",
-            "salary_from": 40000,
-            "salary_to": 0,
-            "address": "Город не указан",
-            "prof_rolles": "Страхование",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
             "work_day": "Сменный график работы"
         },
         {
-            "name": "Менеджер по работе с клиентами",
-            "url": "https://omsk.superjob.ru/vakansii/menedzher-po-rabote-s-klientami-46769485.html",
-            "salary_from": 42100,
+            "name": "Официант",
+            "url": "https://arhangelsk.superjob.ru/vakansii/oficiant-47084715.html",
+            "salary_from": 35000,
             "salary_to": 0,
             "address": "Город не указан",
-            "prof_rolles": "Банки, инвестиции, лизинг",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Сменный график работы"
+        },
+        {
+            "name": "Официант",
+            "url": "https://izhevsk.superjob.ru/vakansii/oficiant-47131134.html",
+            "salary_from": 27000,
+            "salary_to": 0,
+            "address": "Город не указан",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
             "work_day": "Неполный рабочий день"
         },
         {
-            "name": "Менеджер по продажам",
-            "url": "https://www.superjob.ru/vakansii/menedzher-po-prodazham-45735379.html",
-            "salary_from": 20000,
+            "name": "Официант",
+            "url": "https://mineralnye-vody.superjob.ru/vakansii/oficiant-47467878.html",
+            "salary_from": 3000,
+            "salary_to": 3500,
+            "address": "Город не указан",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Полный рабочий день"
+        },
+        {
+            "name": "Официант",
+            "url": "https://komsomolsk-na-amure.superjob.ru/vakansii/oficiant-47469142.html",
+            "salary_from": 40000,
             "salary_to": 0,
             "address": "Город не указан",
-            "prof_rolles": "Продажи",
-            "work_day": "Полный рабочий день"
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Сменный график работы"
         },
         {
-            "name": "Менеджер по продажам",
-            "url": "https://vologda.superjob.ru/vakansii/menedzher-po-prodazham-46008326.html",
-            "salary_from": 55000,
-            "salary_to": 55000,
+            "name": "Официант в ресторан",
+            "url": "https://volgograd.superjob.ru/vakansii/oficiant-v-restoran-47746094.html",
+            "salary_from": 25000,
+            "salary_to": 30000,
             "address": "Город не указан",
-            "prof_rolles": "Услуги, ремонт, сервисное обслуживание",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
             "work_day": "Полный рабочий день"
         },
         {
-            "name": "Менеджер по продажам",
-            "url": "https://krasnodar.superjob.ru/vakansii/menedzher-po-prodazham-46402580.html",
-            "salary_from": 30000,
-            "salary_to": 60000,
-            "address": "Город не указан",
-            "prof_rolles": "Продажи",
-            "work_day": "Полный рабочий день"
-        },
-        {
-            "name": "Менеджер по работе с клиентами без поиска",
-            "url": "https://rnd.superjob.ru/vakansii/menedzher-po-rabote-s-klientami-bez-poiska-46744008.html",
-            "salary_from": 45000,
+            "name": "Официант",
+            "url": "https://mezhdurechensk.superjob.ru/vakansii/oficiant-47747359.html",
+            "salary_from": 0,
             "salary_to": 0,
             "address": "Город не указан",
-            "prof_rolles": "Продажи",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
             "work_day": "Полный рабочий день"
         },
         {
-            "name": "HR менеджер, менеджер по работе с персоналом",
-            "url": "https://tula.superjob.ru/vakansii/hr-menedzher-46949815.html",
+            "name": "Официант в ресторан",
+            "url": "https://istra.superjob.ru/vakansii/oficiant-v-restoran-47850992.html",
+            "salary_from": 40000,
+            "salary_to": 50000,
+            "address": "Город не указан",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Полный рабочий день"
+        },
+        {
+            "name": "Официант",
+            "url": "https://melitopol.superjob.ru/vakansii/oficiant-47749145.html",
+            "salary_from": 0,
+            "salary_to": 100000,
+            "address": "Город не указан",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Полный рабочий день"
+        },
+        {
+            "name": "Бармен-официант",
+            "url": "https://spb.superjob.ru/vakansii/barmen-oficiant-47976428.html",
             "salary_from": 50000,
-            "salary_to": 150000,
-            "address": "Город не указан",
-            "prof_rolles": "Кадры, управление персоналом",
-            "work_day": "Неполный рабочий день"
-        },
-        {
-            "name": "Менеджер по работе с клиентами",
-            "url": "https://magnitogorsk.superjob.ru/vakansii/menedzher-po-rabote-s-klientami-47452645.html",
-            "salary_from": 40000,
-            "salary_to": 0,
-            "address": "Город не указан",
-            "prof_rolles": "Банки, инвестиции, лизинг",
-            "work_day": "Полный рабочий день"
-        },
-        {
-            "name": "Менеджер по работе с клиентами",
-            "url": "https://kotelniki.superjob.ru/vakansii/menedzher-po-rabote-s-klientami-47704619.html",
-            "salary_from": 60000,
-            "salary_to": 0,
-            "address": "Город не указан",
-            "prof_rolles": "Продажи",
-            "work_day": "Полный рабочий день"
-        },
-        {
-            "name": "Менеджер по продажам",
-            "url": "https://www.superjob.ru/vakansii/menedzher-po-prodazham-47940945.html",
-            "salary_from": 40000,
-            "salary_to": 70000,
-            "address": "Город не указан",
-            "prof_rolles": "Продажи",
-            "work_day": "Сменный график работы"
-        },
-        {
-            "name": "Менеджер по закупкам / Снабженец / Логист (Промышленное холодильное оборудование)",
-            "url": "https://balashiha.superjob.ru/vakansii/menedzher-po-zakupkam-48020309.html",
-            "salary_from": 60000,
-            "salary_to": 110000,
-            "address": "Город не указан",
-            "prof_rolles": "Закупки, снабжение",
-            "work_day": "Полный рабочий день"
-        },
-        {
-            "name": "Product-менеджер",
-            "url": "https://balashiha.superjob.ru/vakansii/product-menedzher-48254078.html",
-            "salary_from": 80000,
-            "salary_to": 120000,
-            "address": "Город не указан",
-            "prof_rolles": "Маркетинг, реклама, PR",
-            "work_day": "Полный рабочий день"
-        },
-        {
-            "name": "Менеджер-дизайнер",
-            "url": "https://ufa.superjob.ru/vakansii/menedzher-dizajner-48254080.html",
-            "salary_from": 70000,
-            "salary_to": 150000,
-            "address": "Город не указан",
-            "prof_rolles": "Продажи",
-            "work_day": "Полный рабочий день"
-        },
-        {
-            "name": "Менеджер ресторана",
-            "url": "https://www.superjob.ru/vakansii/menedzher-restorana-48262303.html",
-            "salary_from": 60000,
             "salary_to": 80000,
             "address": "Город не указан",
             "prof_rolles": "Туризм, гостиницы, общественное питание",
             "work_day": "Полный рабочий день"
         },
         {
-            "name": "Менеджер по работе с клиентами",
-            "url": "https://orel.superjob.ru/vakansii/menedzher-po-rabote-s-klientami-48262818.html",
-            "salary_from": 27000,
-            "salary_to": 55000,
+            "name": "Официант",
+            "url": "https://www.superjob.ru/vakansii/oficiant-48019605.html",
+            "salary_from": 47000,
+            "salary_to": 67000,
             "address": "Город не указан",
-            "prof_rolles": "Продажи",
-            "work_day": "Полный рабочий день"
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Сменный график работы"
         },
         {
-            "name": "Менеджер кафетерия / Бариста",
-            "url": "https://www.superjob.ru/vakansii/menedzher-kafeteriya-47374173.html",
-            "salary_from": 67000,
+            "name": "Официант в столовую",
+            "url": "https://solnechnogorsk.superjob.ru/vakansii/oficiant-v-stolovuyu-47858742.html",
+            "salary_from": 29000,
+            "salary_to": 58000,
+            "address": "Город не указан",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Работа вахтовым методом"
+        },
+        {
+            "name": "Официант",
+            "url": "https://spb.superjob.ru/vakansii/oficiant-47135683.html",
+            "salary_from": 50000,
+            "salary_to": 80000,
+            "address": "Город не указан",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Сменный график работы"
+        },
+        {
+            "name": "Официант (в ресторан)",
+            "url": "https://www.superjob.ru/vakansii/oficiant-47744069.html",
+            "salary_from": 50000,
             "salary_to": 0,
             "address": "Город не указан",
             "prof_rolles": "Туризм, гостиницы, общественное питание",
             "work_day": "Сменный график работы"
         },
         {
-            "name": "Менеджер по продажам компьютерной техники",
-            "url": "https://www.superjob.ru/vakansii/menedzher-po-prodazham-kompyuternoj-tehniki-47548135.html",
-            "salary_from": 70000,
-            "salary_to": 120000,
+            "name": "Бариста-официант",
+            "url": "https://www.superjob.ru/vakansii/barista-oficiant-47467747.html",
+            "salary_from": 45000,
+            "salary_to": 60000,
             "address": "Город не указан",
-            "prof_rolles": "Продажи",
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
             "work_day": "Полный рабочий день"
         },
         {
-            "name": "Менеджер по развитию образовательного направления",
-            "url": "https://www.superjob.ru/vakansii/menedzher-po-razvitiyu-obrazovatelnogo-napravleniya-48203149.html",
+            "name": "Официант",
+            "url": "https://www.superjob.ru/vakansii/oficiant-46629013.html",
             "salary_from": 100000,
-            "salary_to": 0,
+            "salary_to": 120000,
             "address": "Город не указан",
-            "prof_rolles": "Наука, образование, повышение квалификации",
-            "work_day": "Полный рабочий день"
+            "prof_rolles": "Туризм, гостиницы, общественное питание",
+            "work_day": "Сменный график работы"
         }
     ]
 }
